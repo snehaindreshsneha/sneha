@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi Options Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 12px 18px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #1abc9c;
+    }
+    .container {
+      padding: 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    button {
+      padding: 8px 14px;
+      border: none;
+      background: #3498db;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Web Page With Many Options</h1>
+  <p>Select anything you want 👇</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#courses">Courses</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+  <a href="#login">Login</a>
+  <a href="#signup">Sign Up</a>
+</nav>
+
+<div class="container">
+  <h2>Options / Features</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Profile</h3>
+      <p>View and edit your profile</p>
+      <button>Open</button>
+    </div>
+    <div class="card">
+      <h3>Settings</h3>
+      <p>Change app preferences</p>
+      <button>Open</button>
+    </div>
+    <div class="card">
+      <h3>Notifications</h3>
+      <p>Check latest alerts</p>
+      <button>View</button>
+    </div>
+    <div class="card">
+      <h3>Messages</h3>
+      <p>Read your messages</p>
+      <button>Read</button>
+    </div>
+    <div class="card">
+      <h3>Reports</h3>
+      <p>Download reports</p>
+      <button>Download</button>
+    </div>
+    <div class="card">
+      <h3>Help</h3>
+      <p>Get support</p>
+      <button>Help</button>
+    </div>
+    <div class="card">
+      <h3>Feedback</h3>
+      <p>Share your feedback</p>
+      <button>Submit</button>
+    </div>
+    <div class="card">
+      <h3>Logout</h3>
+      <p>Sign out safely</p>
+      <button>Logout</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 My Website | Designed for Beginners</p>
+</footer>
+
+</body>
+</html>
